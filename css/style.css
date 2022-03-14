@@ -128,7 +128,11 @@ main{
 
 /* RESPONSIVE DESIGN */
 
-/* @media screen and (max-width: 800px) {
+@media screen and (max-width: 800px) {
+
+    .imagen_grid img{
+        width: 500px;
+    }
 
     .articles_grid{
         grid-template-areas: 
@@ -138,9 +142,15 @@ main{
         "d d c";
     }
 
-} */
+    
+} 
 
-/* @media screen and (max-width: 500px){
+@media screen and (max-width: 500px){
+
+
+    .imagen_grid img{
+        width: 300px;
+    }
 
     .articles_grid{
         grid-template-areas: 
@@ -156,4 +166,4 @@ main{
         gap: 10px;
     }
 
-} */
+}
